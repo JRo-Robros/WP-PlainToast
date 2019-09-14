@@ -1,0 +1,12 @@
+[data-toast] {
+  display: inline-block;
+  position: fixed;
+  z-index: 3000000;
+  top: 100vh;
+  transform: translateY(0px);
+  transition: all 1s ease-in-out;
+}
+
+[data-toast]>* {
+  display: inline-block;
+}
